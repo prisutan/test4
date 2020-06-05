@@ -3,7 +3,9 @@
 
 .DESCRIPTION Get-DiskInventory uses WMI to retrieve the Win32_LogicalDisk instances from 
 one or more computers. It displays each disk's drive letter, free space, total size, 
-and percentage of free space. .PARAMETER computername The computer name, or names, to query. 
+and percentage of free space. 
+
+.PARAMETER computername The computer name, or names, to query. 
 Default: Localhost. 
 
 .PARAMETER drivetype The drive type to query. See Win32_LogicalDisk documentation for values. 3 
